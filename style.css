@@ -21,6 +21,7 @@
     background-color: rgb(237, 101, 162);
 }
 
+
 /* HERO BACKGROUND IMAGE */
 .bgimage {
     height: 100vh;
@@ -48,26 +49,38 @@
 }
 
 
+/* PROJECTS DIVS W/ TWO ICONS */
+.two-icons {
+    display: flex;
+    justify-content: center;
+}
+.github, .window {
+    padding: 5px;
+}
+
 
 /* INTEREST CARDS */
+/* Includes styling for project icons */
 .interestsText.card {
     height: 280px;
     cursor: pointer;
   }
-.interestsIcon {
+.interestsIcon, .projectsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
+    color: black;
 }
 .card-title {
     text-align: center;
 }
-.card:hover .interestsIcon {
-    color: #008000;
+.card:hover .interestsIcon, .projectsIcon:hover {
+    color: rgb(237, 101, 162);
 }
 .interestsText:hover {
-    border: 1px solid #008000;
+    border: 1px solid rgb(237, 101, 162);
 }
+
 
 /* FOOTER */
 /* social media icons styling */
@@ -76,7 +89,7 @@
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: rgb(237, 101, 162);
 }
 .fab {
     color: #000000;

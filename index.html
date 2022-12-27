@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ae1495e4e6.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    
     <title>Sierra Nash</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#index">SIERRA</a>
+            <a class="navbar-brand" href="#index">SIERRA (산맥)</a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,42 +47,70 @@
     <!-- Projects Section-->
     <section id="projects">
         <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
+            <h1 class="text-center">PROJECTS</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/Reflection By Sekatsky Unsplash.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Mirror Mirror</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">A mental health and wellness awareness resource that introduces users to the 
+                                adverse childhood experience (ACE) breakdown and a quiz to calculate their score.</p>
+                            <ul class="card-text">
+                                <li>Python, Django, JavaScript, SQLite, HTML, CSS, Bootstrap</li>
+                                <li>I built the HTML template pages to closely resemble our wireframe</li>
+                                <li>I added the "HiddenInput" widget to the Django forms so we could have multiple forms on one template for the reviews/comments page</li>
+                            </ul>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://github.com/RogueStorm7/mirror-mirror-WOW" target="blank">
+                                    <i class="fa-brands fa-github projectsIcon"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                    <div class="card projectsContent">
+                        <img class="card-img-top" src="images/Panama By Isaac Quesada Unsplash.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">ancestral</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                            <p class="card-text">Influenced by animism practiced by indigenous communities worldwide, ancestral allows users to search for spiritual animal meanings without sifting through inauthentic and diluted symbolism encountered elsewhere on the net.</p>
+                            <ul class="card-text">
+                                <li>Python, Django, MySQL, HTML, CSS, Bootstrap</li>
+                                <li>I connected the MySQL database to Django and interact with the data via the XAMPP Control Panel</li>
+                                <li>I differentiated between user experience and developer experiences with a set of URLS dedicated to CRUD functionality so devs can manipulate data entries</li>
+                            </ul>
+                            <div class="text-center two-icons">
+                                <a href="https://github.com/sasianan19/ancestral" target="blank">
+                                    <i class="fa fa-brands fa-github projectsIcon github"></i>
+                                </a>
+                                <a href="#" target="blank">
+                                    <i class="fas fa-arrow-up-right-from-square projectsIcon window"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mt-4">
-                    <div class="card portfolioContent">
-                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                    <div class="card projectsContent">
+                        <img class="card-img-top" src="images/Crafts By Jess Bailey Unsplash.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Portfolio Site</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                            <p class="card-text">This is my website coded from scratch, please take a look around. I am open to criticism- feel free to deliver feedback through the contact form below! 😊</p>
+                            <ul class="card-text">
+                                <li>JavaScript, HTML, CSS, Bootstrap, Font Awesome</li>
+                                <li>I followed a technical portfolio <a href="https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/" target="blank">tutorial</a> and tweaked it a bit to suit my tastes</li>
+                                <li>This is the first time I've coded a contact form that actually works</li>
+                            </ul>
+                            <div class="text-center two-icons">
+                                <a href="https://github.com/sasianan19/Portfolio" target="blank">
+                                    <i class="fa fa-brands fa-github projectsIcon github"></i>
+                                </a>
+                                <a href="#" target="blank">
+                                    <i class="fas fa-arrow-up-right-from-square projectsIcon window"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -195,7 +226,5 @@
     <script src="script/script.js"></script>
     <!-- Bootstrap CDN Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>    <!-- Font Awesome -->
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </body>
 </html>
