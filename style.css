@@ -59,6 +59,14 @@
 }
 
 
+/* SKILLS SECTION*/
+.skillsIcon {
+    font-size: 60px;
+}
+#skillsList {
+    padding-left: 1.2em;
+}
+
 /* INTEREST CARDS */
 /* Includes styling for project icons */
 .interestsText.card {
