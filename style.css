@@ -60,6 +60,13 @@ ul {
     color: whitesmoke;
     background-color: rgba(236, 11, 109, 0.793);
 }
+.templeLink {
+    text-decoration: none;
+    color: rgb(111, 222, 153);
+}
+.templeLink:hover {
+    color: rgb(157, 158, 157);
+}
 
 
 /* PROJECTS DIVS W/ TWO ICONS */
