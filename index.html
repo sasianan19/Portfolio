@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Contact Form CSS -->
+    <link rel="stylesheet" href="form-style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/ae1495e4e6.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS-->
@@ -27,6 +29,7 @@
                     <a class="nav-link" href="#projects">PROJECTS</a>
                     <a class="nav-link" href="#skills">SKILLS</a>
                     <a class="nav-link" href="#about">ABOUT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                 </div>
             </div>
         </div>
@@ -280,6 +283,40 @@
         </div>
     </section>
 
+    <!-- Contact Section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">CONTACT ME</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form method="POST" action="https://formspree.io/f/xayzyevw" > 
+                        <label for="name">Name</label>     
+                        <input name="name" id="name" type="text" class="feedback-input" required aria-required> 
+                        
+                        <label for="email">Email Address</label>
+                        <input name="email" id="email" type="email" class="feedback-input" placeholder="yourname@example.com" required aria-required>
+
+                        <label for="subject">Subject</label>
+                        <input name="subject" id="subject" type="text" class="feedback-input">
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" class="feedback-input" required aria-required></textarea>
+                        <input type="submit" value="SEND" id="submit"/>
+                    </form>
+                </div>
+               
+                <div class="col-lg-6">
+                    <!-- ADD QUOTE IMAGE -->
+                    <div class="jokeDiv">
+                        <img src="https://comic.browserling.com/bytes.png" alt="Two bytes sitting at a table. First byte asks, 'Are you ill?' Second byte responds, 'No, just feeling a bit off'" class="jokeImage">
+                        <p><small>More jokes <a href="https://comic.browserling.com" class="link" target="blank">here</a>!</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Info Footer -->
     <footer id="footer">
         <div class="container-fluid">
@@ -291,7 +328,8 @@
     </footer>
 
 
-
+    <!-- JavaScript Schema Validation -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
     <!-- Custom JavaScript -->
     <script src="script/script.js"></script>
     <!-- Bootstrap CDN Script -->
