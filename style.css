@@ -105,10 +105,6 @@ ul {
 .card-title {
     text-align: center;
 }
-.interestLink {
-    text-decoration: none;
-    color: black;
-}
 .interestLink:hover {
     color: rgb(232, 117, 168);
 }
