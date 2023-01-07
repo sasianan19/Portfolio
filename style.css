@@ -7,6 +7,22 @@
     padding-top: 4rem;
 }
 
+/* CAMBRIA FONT THROUGHOUT */
+.text,
+.feedback-input,
+.submit {
+    font-family: Cambria, Georgia, serif;
+}
+
+/* FONT SIZING */
+.card-text,
+.skills-desc,
+.skills-list,
+.bio,
+.bio-list {
+    font-size: 17px;
+}
+
 /* MOST LINKS */
 .link {
     color: rgb(232, 117, 168);
@@ -161,8 +177,6 @@
 }
 
 /* FORM */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 .contact-form { 
     margin: auto; 
     max-width: 420px;
@@ -171,7 +185,6 @@
 
 .feedback-input {
     color: black;
-    font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
@@ -202,7 +215,6 @@
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: 700;
     margin-top: -4px;
